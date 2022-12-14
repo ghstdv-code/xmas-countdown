@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 
+    <uadio src="/assets/Audionautix-Carol-Of-The-Bells.mp3" autoplay loop></audio> -->
+
+    <audio hidden></audio>
+
+    <div class="container">
+        <header>
+            <div class="santa"></div>
+            <h1>Christmas Day Countdown</h1>
+        </header>
+
+
+        <div class="timer-container">
+            <div class="timer-item dd">
+                <p class="b-text" id="days">0</p>
+                <span>days</span>
+            </div>
+
+            <div class="timer-item hh">
+                <p class="b-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+
+            <div class="timer-item mm">
+                <p class="b-text" id="minutes">0
+                </p>
+                <span>minutes</span>
+            </div>
+
+            <div class="timer-item ss">
+                <p class="b-text" id="seconds">0
+                </p>
+                <span>seconds</span>
+            </div>
+        </div>
+
+        <button>
+            <img src="img/headphones-5795.svg"/>
+            <p>Enable Music</p>
+        </button>
+
+    </div>
+
+
+
+    <footer>
+        <div class="copyright">
+            <p>Copyright &copy;2022 LqGhostDev. All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+        new Snowflakes();
+    </script>
+    <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
